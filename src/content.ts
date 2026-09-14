@@ -24,7 +24,7 @@ export const site = {
   /** Live site URL (repo must be named Pikas3.github.io) */
   siteUrl: 'https://pikas3.github.io',
 
-  location: 'Your City, ST',
+  location: 'Atlanta, GA',
 
   /** Primary call-to-action in the hero */
   primaryCta: {
@@ -38,9 +38,9 @@ export const site = {
 }
 
 export const links = {
-  email: 'you@example.com',
+  email: 'jboman@gatech.edu',
   github: 'https://github.com/Pikas3',
-  linkedin: 'https://www.linkedin.com/in/jeffreyboman',
+  linkedin: 'https://www.linkedin.com/in/jeffrey-boman-522b63354/',
   /** Optional — put '/resume.pdf' after you add public/resume.pdf; leave '' to hide */
   resume: '',
   /** Optional — leave empty string to hide */
