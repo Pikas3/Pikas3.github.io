@@ -5,9 +5,9 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  // Project Pages under github.com/Pikas3/jeffreyboman.github.io
-  // → https://pikas3.github.io/jeffreyboman.github.io/
-  base: '/jeffreyboman.github.io/',
+  // User site: repo must be named Pikas3.github.io
+  // → https://pikas3.github.io/
+  base: '/',
   server: {
     host: '0.0.0.0',
     port: 4321,

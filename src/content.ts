@@ -21,8 +21,8 @@ export const site = {
   pageDescription:
     'Personal site of Jeffrey Boman, computer science student. Projects, experience, and ways to get in touch.',
 
-  /** Live site URL (repo: Pikas3/jeffreyboman.github.io) */
-  siteUrl: 'https://pikas3.github.io/jeffreyboman.github.io',
+  /** Live site URL (repo must be named Pikas3.github.io) */
+  siteUrl: 'https://pikas3.github.io',
 
   location: 'Your City, ST',
 
@@ -91,8 +91,8 @@ export const projects = [
       'One or two sentences on what it does and why it matters. Swap this for a real project.',
     tags: ['TypeScript', 'React', 'Node'],
     links: {
-      live: 'https://example.com',
-      source: 'https://github.com/jeffreyboman/project-one',
+      live: '',
+      source: '',
     },
   },
   {
@@ -102,9 +102,10 @@ export const projects = [
     tags: ['Python', 'FastAPI'],
     links: {
       live: '',
-      source: 'https://github.com/jeffreyboman/project-two',
+      source: '',
     },
   },
+
   {
     name: 'Project Three',
     description:
